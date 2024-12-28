@@ -13,6 +13,7 @@ struct MailTemplate<'a> {
     company_name: &'a str,
     active_title: &'a str,
     active_time: &'a str,
+    active_image: &'a str,
 }
 
 fn main() {
@@ -37,6 +38,8 @@ fn main() {
         company_name: "AowuAowu",
         active_title: "第四年目の东方暮乐团",
         active_time: "2024-11-22",
+        active_image:
+            "https://cdn-surrounding.peropero.net/650d2765e98f9f0ff25a8bde48c8b9c9_1729736687.png",
     };
 
     let email = Message::builder()

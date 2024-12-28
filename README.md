@@ -15,7 +15,10 @@ smtp_password=
 
 ## 尝试发送邮件
 
-网页模板文件: `templates/index.html`
+- 网页模板文件，内容来自MuseDash官网：https://musedash.peropero.net/#/news 第四年目の东方暮乐团
+    
+    `templates/index.html`
+
 
 - 编辑main.rs:
 
