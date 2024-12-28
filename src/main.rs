@@ -11,6 +11,8 @@ use lettre::{Message, SmtpTransport, Transport};
 
 struct MailTemplate<'a> {
     company_name: &'a str,
+    active_title: &'a str,
+    active_time: &'a str,
 }
 
 fn main() {
@@ -28,11 +30,13 @@ fn main() {
     let email_receiver = "";
 
     // 邮件标题
-    let email_title = "SihaSiha: 哇哦:D 是1大鸽鸽ψ(｀∇´)ψ";
+    let email_title = "SihaSiha: 哇哦:D 是大鸽鸽ψ(｀∇´)ψ";
 
     // 邮件内容
     let mail_body = MailTemplate {
         company_name: "AowuAowu",
+        active_title: "第四年目の东方暮乐团",
+        active_time: "2024-11-22",
     };
 
     let email = Message::builder()
