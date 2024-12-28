@@ -119,3 +119,5 @@ PS C:\Users\14752\codes\rust_reactive_email_template> cargo build;cargo run
 Email sent successfully!
 PS C:\Users\14752\codes\rust_reactive_email_template>
 ```
+
+<img src="./nia.png" width="50%">
